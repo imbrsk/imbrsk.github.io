@@ -33,5 +33,5 @@ function runScript(){
         }
     }
     let card = document.getElementsByClassName("card")[0];
-    card.innerHTML = (wins / text * 100).toFixed(2) + "% win if now switch </br>" + (loses / text * 100).toFixed(2) + "% win if switch ";
+    card.innerHTML = (wins / text * 100).toFixed(2) + "% win if not switch </br>" + (loses / text * 100).toFixed(2) + "% win if switch ";
 };
